@@ -3,12 +3,6 @@
 import java.io.File;
 import java.util.*;
 
-/*
- * SD2x Homework #11
- * Improve the efficiency of the code below according to the guidelines in the assignment description.
- * Please be sure not to change the signature of the detectPlagiarism method!
- * However, you may modify the signatures of any of the other methods as needed.
- */
 
 public class PlagiarismDetector {
 
@@ -167,10 +161,7 @@ public class PlagiarismDetector {
 		return list;
 	}
 	
-	/*
-	 * This method is here to help you measure the execution time and get the output of the program.
-	 * You do not need to consider it for improving the efficiency of the detectPlagiarism method.
-	 */
+	
     public static void main(String[] args) {
     	if (args.length == 0) {
     		System.out.println("Please specify the name of the directory containing the corpus.");
